@@ -72,7 +72,7 @@ export const Row1 = styled.ul`
 
   @media (max-width: 425px) {
     flex-direction: column;
-    margin-bottom: 0.9rem;
+    padding-bottom: 1rem;
   }
 `;
 
@@ -96,6 +96,7 @@ export const NavIcons = styled.div`
 
   @media (max-width: 425px) {
     width: calc(100% - 2rem);
+    padding-bottom: 1rem;
   }
 `;
 
